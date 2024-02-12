@@ -1,0 +1,33 @@
+.flex-conteiner1 {
+    /*direcionamento */
+    display: flex;   
+    flex-direction: row;  
+
+                /* alinhamento */
+    /* justify-content  e para alinhar no eixo principal main exis, e a propiedade de alinhar os flex item  de forma vertical*/
+    justify-content: space-between;
+    
+
+
+    /* align-items e para alinhar os itens no eixo perpendicular cross axis, e para alinhar o conteudo */
+ align-items: center;
+    
+
+    /*align items alinha o conteudo  */
+   /* align-content: flex-start;*/
+
+    
+
+    background: rgb(43, 136, 190);
+   height: 300px;
+   
+}
+
+.flex-item1 {
+  
+    background: rgb(93, 27, 156);
+    
+    
+
+
+/*  */

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+
+    <h1>Formulario de cadastro</h1>
+    <form action="#" method="get" target="_blank">
+        <fieldset>
+            <legend>Dados</legend>
+            <label for="linknome">Primeiro nome</label>
+            <input type="text" id="linknome" name="nome" placeholder="Seu nome" value="" required>
+
+            <label for="linksobrenome">Sobrenome</label>
+            <input type="text" id="linksobrenome" name="Sobrenome" placeholder="Seu sobrenome" value="" required>
+            <br>
+
+            <label for="linkdata">Data de nascimento</label>
+            <input type="date" id="linkdata" required>
+            <br>
+
+
+            <p>Genero</p>
+            <label for="linkf">Femenino</label>
+            <input type="radio" id="linkf">
+            <br>
+            <label for="linkm">Masculino</label>
+            <input type="radio" id="linkm">
+            <br>
+            <label for="linknao">Prefiro não informar</label>
+            <input type="radio" id="linknao">
+            <br>
+
+
+
+
+            <p>Genero</p>
+            <label for="linkf">Femenino</label>
+            <input type="checkbox" id="linkf">
+            <br>
+            <label for="linkm">Masculino</label>
+            <input type="checkbox" id="linkm">
+            <br>
+            <label for="linknao">Prefiro não informar</label>
+            <input type="checkbox" id="linknao">
+            <br>
+
+
+
+          
+            <label for="linkselect">Genero</label>
+           <select name="linkselect" id="linkselect">
+            <option value="qualquer1" label="Femenino" selected></option>
+            <option value="qualquer1" label="Masculino"></option>
+            <option value="qualquer1" label="Prefiro não informar"></option>
+           </select>
+           <br>
+
+
+           <label for="linkselect">local</label>
+           <select name="linkselect" id="linkselect">
+            <optgroup label="Minas Gerais">
+            <option value="qualquer1" label="Betim" ></option>
+            <option value="qualquer1" label="Belo Horizonte"></option>
+            <option value="qualquer1" label="Contagem"></option>
+            </optgroup>
+            <optgroup label="São Paulo">
+            <option value="qualquer1" label="dfggfgf" ></option>
+            <option value="qualquer1" label="São Paulo" selected></option>
+            <option value="qualquer1" label="yffhfth"></option>
+            </optgroup>
+            <optgroup label="Rio de Janeiro">
+            <option value="qualquer1" label="etjekuyyu" ></option>
+            <option value="qualquer1" label="Rio de Janeiro"></option>
+            <option value="qualquer1" label="rsnymfy"></option>
+            </optgroup>
+           </select>
+           <br>
+
+
+
+            <label for="linkemail">E-mail</label>
+            <input type="email" id="linkemail" required placeholder="Ex.: email@email.com">
+            <br>
+
+            <label for="linkcpf">CPF</label>
+            <input type="text" id="linkcpf" required>
+            <br>
+
+            <label for="linkrg">RG</label>
+            <input type="text" id="linkrg" required>
+            <br>
+
+            <label for="linkareatexto">Area de Texto</label>
+            <textarea name="linkareatexto" id="linkareatexto" cols="30" rows="10"></textarea>
+            <br>
+
+            <label for="linkarquivos">Envia arquivos</label>
+            <input type="file" id="linkarquivos" required>
+            <br>
+
+
+
+        </fieldset>
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>

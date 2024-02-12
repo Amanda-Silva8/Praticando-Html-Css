@@ -1,0 +1,68 @@
+
+
+
+/*FLEXBOX*/
+.flex-conteiner1 {
+    display: flex;  /*ativando o dysplay flex, libera todas as opções a baixo:  */ 
+                /*Direcionamento  */
+    /*flex-direction e a propriedade de alinhar os flex item de forma horizontal ou de forma vertical dependendo das funções  */
+    flex-direction: row;  /* essa função vem por padrão e forma colunas (vertical) */
+    flex-direction: column; /* essa função e para o flex item ficar na horizontal */
+    flex-direction: row-reverse; /* para reverter a ordem que esta no html */
+    flex-direction: column-reverse;  /*para reverter a ordem que esta no html  */
+
+                /* alinhamento */
+    /* justify-content  e para alinhar no eixo principal main exis, e a propiedade de alinhar os flex item  de forma vertical*/
+    justify-content: flex-start; /* essa função vem por padrao (vai para o inicio)*/
+    justify-content: flex-end; /*para o flex item se alinhar no final  */
+    justify-content: center; /*para alinhar no centro  */
+    justify-content: space-around; /* distribui o espaço em volta do elemento, mas somam os espaços quando encontra outro elemento */
+    justify-content: space-between; /*distribui o espaço em volta do elemento, de maneira igual  */
+    justify-content: space-evenly;  /* distribui o espaço entre os elementos de maneira igual */
+
+
+    /* align-items e para alinhar os itens no eixo perpendicular cross axis, e para alinhar o conteudo */
+    align-items: stretch;  /* essa função vem por padrao, e para o conteudo dentro do flex-item (e para esticar o flex item) */
+    align-items: flex-start;  /* vai para o inicio */
+    align-items: center;  /* vai para o meio */
+    align-items: flex-end; /*alinha no final  */
+    align-items: baseline; /* alinha a base da linha das fontes do conteudo dentro do flex item  */
+
+    /*align items alinha o conteudo  */
+    align-content: flex-start;
+
+    flex-wrap: wrap; /* para quando o flex item nao caber na pagina entao ele quebra os itens para baixo  */
+    flex-flow: ; /* seria um atalho do wrap */
+    flex-grow: 1 ; /* e para o elemento ocupar o espaço de forma igual */
+    flex-basis: ; /* e para o espaço ser distribuido de maneira igual, mas para um elemento  eu tenho um espaço maior */
+    flex-shrink: 1; /* vai permitir que o elemento diminua ou nao */
+    flex: 1 1 320px; /* e um atalho, o primeiro e grow, o segundo parametro e shrink, o terceiro e o basis */
+
+
+    background: rgb(43, 136, 190);
+    height: 300px;
+    gap: 30px; /*e um espaço entre cada elemento, mas não funciona em todos os navegadores  */
+
+}
+
+.flex-item1 {
+    background: rgb(93, 27, 156);
+}
+
+
+/*CSS GRID  */
+
+.grid {
+    display: grid; /*  para ativar a função grid*/
+    grid-template-columns: 50% 50%;
+}
+
+
+
+
+
+
+
+
+
+/*  */

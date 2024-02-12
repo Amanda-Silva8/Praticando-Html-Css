@@ -1,0 +1,24 @@
+body {
+    font-size: 30px;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 4fr;
+    gap: 30px;
+}
+
+
+.grid div {
+    background: red;
+    min-height: 100px ;
+
+}
+
+.grid div:nth-child(2) {
+    grid-column-start: 2 ;
+
+}
+
